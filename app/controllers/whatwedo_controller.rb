@@ -7,4 +7,14 @@ class WhatwedoController < ApplicationController
 
   def technology
   end
+
+  def organic
+  end
+
+  def starter
+  end
+
+  def government
+  end
+
 end

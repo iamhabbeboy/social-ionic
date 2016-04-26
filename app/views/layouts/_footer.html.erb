@@ -7,17 +7,18 @@
                 <li>
                     <b> Company </b>
                 </li>
-                 <li>
-                    <a href="#"> Services</a>
+
+                <li>
+                    <a href="<%= aboutus_path %>"> About Us </a>
                 </li>
                 <li>
-                    <a href="#"> About Us </a>
+                    <a href="<%= blog_path %>"> Our Blog </a>
                 </li>
                 <li>
-                    <a href="#"> Our Blog </a>
-                </li>
+                   <a href="<%= terms_path %>"> Terms of Use</a>
+               </li>
                 <li>
-                    <a href="#"> Support </a>
+                    <a href="<%= privacy_path %>"> Privacy Policy</a>
                 </li>
 
 
@@ -31,13 +32,13 @@
                     <b>Careers </b>
                 </li>
                 <li>
-                    <a href="#"> Jobs </a>
+                    <a href="#"> Vacancies </a>
                 </li>
                 <li>
-                    <a href="#"> Associate </a>
+                    <a href="<%= careers_associate_path %>"> Associate </a>
                 </li>
                 <li>
-                    <a href="#"> Independent </a>
+                    <a href="<%= careers_independent_path %>"> Independent Consultant</a>
                 </li>
                 <li>
                     <a href="#"> Contact Us </a>
@@ -57,9 +58,9 @@
                   <p class="office-address">
                     <b> Office Address </b>
                     <br/>
-                     10, adebowale street,<br/>
-                     Pleasure b/stop.<br/>
-                     Lagos State.<br/>
+                     25, Oduduwa way,<br/>
+                     GRA, Ikeja,<br/>
+                     Lagos.<br/>
                      <a href="#"><small><b> Send enquiry </b></small></a>
                   </p>
 
@@ -77,6 +78,7 @@
                         <label> Content </label>
                         <textarea class="form-control" name="content"></textarea>
                         <br/>
+                        <a href="#" class="hide-me"><small> Hide enquiry </small></a>
                         <button class="btn btn-success btn-sm pull-right"><i class="fa fa-send-o"></i> Send</button>
 
                         </div>
@@ -93,6 +95,6 @@
     <div class="bg-color-black">
 
         <center>
-            <small><b class="base-footer"> Powered By Rendzina Capital </b></small>
+            <small><b class="base-footer"> Powered By Rendzina LTD <%= Date.today.year %> </b></small>
         </center>
     </div>

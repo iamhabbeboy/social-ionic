@@ -7,7 +7,7 @@
   <div class="container">
    <div class="col-md-4">
 
-         <%= link_to image_tag("rendzina_logo1.png"), root_path %>
+         <%= link_to image_tag("our_logo1"), root_path %>
 
    </div>
    <div class="col-md-8">
@@ -43,7 +43,7 @@
 
         </li>
 
-         <li <% if page === '/whatwedo' || page === '/whatwedo/consulting' || page === '/whatwedo/technology' || page === '/whatwedo/social' || page === '/whatwedo/agrinvest' %>
+         <li <% if page === '/whatwedo' || page === '/whatwedo/consulting' || page === '/whatwedo/technology' || page === '/whatwedo/social' || page === '/whatwedo/agrinvest' || page === '/starter' || page === '/organic' || page ==='/whatwedo/government' %>
          class="active"
          <% end %>>
             <!--<a href="#">What we do</a> -->
@@ -61,9 +61,6 @@
         <% end %>>
             <!--<a href="#"> Careers </a>-->
             <%= link_to 'Careers', careers_path %>
-        </li>
-          <li >
-            <a href="#"> Contacts </a>
         </li>
 
       </ul>

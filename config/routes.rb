@@ -12,6 +12,12 @@ Rails.application.routes.draw do
 
   get 'whatwedo/agrinvest'
 
+  get 'whatwedo/organic'
+
+  get 'whatwedo/starter'
+
+  get 'whatwedo/government'
+
   get 'home/index'
 
   get 'aboutus' => "home#aboutus"
@@ -20,15 +26,19 @@ Rails.application.routes.draw do
 
   get 'careers' => "home#careers"
 
-  get 'starter' => "home#starter"
+  #get 'starter' => "whatwedo#starter"
 
   get 'agrinvest' => "home#agrinvest"
 
   get 'gaae' => "home#gaae"
 
-  get 'organic' => "home#organic"
+  #get 'organic' => "whatwedo#organic"
 
   get 'blog' => "home#blog"
+
+  get 'privacy' => "home#privacy"
+
+  get 'terms' => "home#terms"
 
   #get 'contact' => "home#contact"
 

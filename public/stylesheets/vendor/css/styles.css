@@ -21,7 +21,7 @@ body {
 
 .real-time-contact {
   background: rgba(0, 0, 0, 0.5);
-  padding: 30px;
+  padding: 15px;
   position: fixed;
   z-index: 10000;
   right: -0px;
@@ -116,7 +116,7 @@ body {
 
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text{
 
-    color: #FFFFFF;
+    color: #666;
     font-family: 'Google Font';
     transition: .5s all;
 }
@@ -143,6 +143,24 @@ body {
   border-radius: 0px;
 }
 
+.package-header {
+  padding: 5px;
+  background: url('../../../assets/layer3_bg_rpt.jpg');
+  border-bottom: 2px solid yellowgreen;
+  margin-bottom: 10px;
+}
+
+.l li {
+  list-style: none;
+  padding: 5px;
+}
+
+.l {
+  padding-left: 2px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
 /* line 104, ../scss/styles.scss */
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: yellowgreen;
@@ -157,14 +175,14 @@ body {
 .navbar-default .navbar-toggle {
   background: yellowgreen;
   border-color: white;
-  color: white !important;
+  color: #000;
 }
 
 /* line 123, ../scss/styles.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: greenyellow;
   border-color: #FFF;
-  color: white;
+  color: #000;
 }
 
 /* line 130, ../scss/styles.scss */
@@ -188,13 +206,12 @@ body {
 }
 
 .header-section {
-
     padding-top: 5px;
     padding-bottom: 5px;
-    background: #000;
+    background: url('../../../assets/layer3_bg_rpt');
     border-bottom: 3px solid yellowgreen;
-
 }
+
 
 .website-title {
 
