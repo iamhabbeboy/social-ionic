@@ -1,0 +1,18 @@
+<%= simple_form_for @post, url: posts_path, html: { multipart: true, class: "form-horizontal" } do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :title, input_html: { class: "form-control"} %>
+    <%= f.input :message, input_html: { class: "form-control" } %>
+</div>
+
+  <div class="form-actions">
+    <br/>
+    <div style="float:left;">
+      <%= f.file_field :avatar %>
+    </div>
+
+    <%= f.button :submit, class: "btn btn-success", style: "width: 40%;float:right;" %>
+
+  </div>
+<% end %>

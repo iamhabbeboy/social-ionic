@@ -50,13 +50,13 @@
             <%= link_to 'What we do', whatwedo_path %>
         </li>
 
-        <li <% if page == '/blog' %>
+        <li <% if page == '/blog' || page === '/blog/new' %>
            class="active"
         <% end %>>
             <!--<a href="#"> Blog </a>-->
             <%= link_to 'Blog', blog_path %>
         </li>
-        <li <% if page === '/careers' || page ==='/careers/associate' || page === '/careers/independent' %>
+        <li <% if page === '/careers' || page ==='/careers/associate' || page === '/careers/independent' || page ==='/associates/new' || page === '/consultant/new' || page === '/consultants/new' %>
           class="active"
         <% end %>>
             <!--<a href="#"> Careers </a>-->
